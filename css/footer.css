@@ -1,0 +1,62 @@
+footer {
+  width: 100%;
+}
+footer .footer-center {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 30px;
+  box-sizing: border-box;
+}
+footer .footer-center nav {
+  max-width: 850px;
+  margin-bottom: 5px;
+}
+footer .footer-center nav a {
+  position: relative;
+  padding: 0 2px;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+footer .footer-center nav a::after {
+  content: " |";
+  margin-left: 5px;
+}
+footer .footer-center nav a:last-child::after {
+  display: none;
+}
+footer .footer-center nav a:hover {
+  color: var(--main-color);
+}
+footer .footer-center address {
+  max-width: 800px;
+  margin-bottom: 5px;
+}
+footer .footer-center address i {
+  position: relative;
+  padding: 0 2px;
+  font-size: 0.86em;
+  color: rgb(97, 97, 97);
+}
+footer .footer-center address i::after {
+  content: " /";
+  margin-left: 5px;
+}
+footer .footer-center address i:last-child::after {
+  display: none;
+}
+footer .footer-center div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .footer-center div p {
+  font-size: 0.9em;
+  font-weight: 500;
+}
+footer .footer-center div .footer-sns-logo {
+  display: flex;
+}
+footer .footer-center div .footer-sns-logo a:first-child {
+  margin-right: 20px;
+}/*# sourceMappingURL=footer.css.map */

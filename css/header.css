@@ -1,0 +1,159 @@
+header {
+  background-image: url("../img/bg/dotted1.png");
+  position: relative;
+  z-index: 99;
+  padding-top: 10px;
+  width: 100%;
+  /* -- gnb-center -- */
+}
+header nav.member {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header nav.member > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+header nav.member > ul > li a {
+  padding: 3px 15px;
+  border-radius: 20%;
+  font-size: 0.85em;
+}
+header nav.member > ul > li a:hover {
+  background: var(--main-color);
+  color: #fff;
+}
+@media screen and (max-width: 900px) {
+  header nav.member {
+    display: none !important;
+  }
+}
+header .gnb-center {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .gnb-center > h1 {
+  height: 70%;
+}
+header .gnb-center > h1 > a img {
+  width: 100%;
+}
+header .gnb-center .gnb-lg {
+  height: 45px;
+}
+@media screen and (max-width: 900px) {
+  header .gnb-center .gnb-lg {
+    display: none !important;
+  }
+}
+header .gnb-center .gnb-lg > ul {
+  display: flex;
+  height: inherit;
+}
+header .gnb-center .gnb-lg > ul > li {
+  height: inherit;
+}
+header .gnb-center .gnb-lg > ul > li:hover > a::before {
+  width: 50px;
+}
+header .gnb-center .gnb-lg > ul > li > a {
+  position: relative;
+  height: inherit;
+  padding: 0 37px;
+  box-sizing: border-box;
+  line-height: 40px;
+  font-size: 1em;
+  font-weight: 400;
+  transition: all 0.3s;
+}
+header .gnb-center .gnb-lg > ul > li > a::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0px;
+  height: 3px;
+  background: var(--main-color);
+  transition: width 0.3s;
+}
+header .gnb-center .gnb-lg > ul > li > ul {
+  display: none;
+}
+header .gnb-center .gnb-lg > ul > li > ul > li > a {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  padding: 1px 5px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 0.95em;
+  background: var(--gray-color);
+  color: #fff;
+  transition: all 0.3s;
+}
+header .gnb-center .gnb-lg > ul > li > ul > li > a:hover {
+  background: var(--main-color);
+}
+@media screen and (min-width: 900px) {
+  header .gnb-center .mbtn {
+    display: none !important;
+  }
+}
+header .gnb-center .mbtn .fa-up-long {
+  display: none;
+}
+header .gnb-center .mbtn.active .fa-up-long {
+  display: block;
+}
+header .gnb-center .mbtn.active .fa-bars {
+  display: none;
+}
+header .gnb-center .mbtn i {
+  font-size: 1.5em;
+}
+header .gnb-center .mbtn i:hover {
+  color: var(--main-color);
+}
+header nav.gnb-sm {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+}
+@media screen and (min-width: 900px) {
+  header nav.gnb-sm {
+    display: none !important;
+  }
+}
+header nav.gnb-sm a {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+}
+header nav.gnb-sm > ul > li > a {
+  padding: 0 15px;
+  font-weight: 500;
+  color: #fff;
+  background: var(--main-color);
+  border-bottom: 1px solid #ddd;
+  transition: all 0.3s;
+}
+header nav.gnb-sm > ul > li > a.active {
+  background: var(--gray-color);
+  color: #000;
+}
+header nav.gnb-sm > ul > li > ul {
+  display: none;
+}
+header nav.gnb-sm > ul > li > ul > li > a {
+  padding: 0 25px;
+  background: #eee;
+  color: #000;
+  border-bottom: 1px dotted #ccc;
+}/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,67 @@
+@import './mixin';
+
+footer{
+  width: 100%;
+  .footer-center{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    nav{
+      max-width: 850px;
+      margin-bottom: 5px;
+      a{
+        position: relative;
+        padding: 0 2px;
+        font-size: 0.9em;
+        font-weight: 500;
+        &::after{
+          content: ' |';
+          margin-left: 5px;
+        }
+        &:last-child::after{
+          display: none;
+        }
+        &:hover{
+          color: var(--main-color);
+        }
+      }//a
+    }//nav
+    address{
+      max-width: 800px;
+      margin-bottom: 5px;
+      i{
+        position: relative;
+        padding: 0 2px;
+        font-size: 0.86em;
+        &::after{
+          content: ' /';
+          margin-left: 5px;
+        }
+        &:last-child::after{
+          display: none;
+        }
+        color: rgb(97, 97, 97);
+      }//i
+    }//adress
+    div{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      p{
+        font-size: 0.9em;
+        font-weight: 500;
+      }//p
+      .footer-sns-logo{
+        display: flex;
+        a{
+          &:first-child{
+            margin-right: 20px;
+          }
+          img{}
+        }
+      }
+    }
+  }//footer-center
+}//footer
