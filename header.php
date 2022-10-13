@@ -17,6 +17,7 @@
   <script defer src="./js/common.js"></script>
   <script defer src="./js/responsive_carousel_horz.js"></script>
   <script defer src="./js/smoothscroll.js"></script>
+  <script defer src='./js/scroll.js'></script>
   <title>Document</title>
 </head>
 <body>
@@ -35,7 +36,7 @@
     <div class="gnb-center">
       <h1 class="logo">
         <span class="hidden">logo</span>
-        <a href="#">
+        <a href="index.php">
           <img src="./img/logo/logo.png" alt="logo">
         </a>
       </h1><!-- h1 -->

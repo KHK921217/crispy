@@ -65,52 +65,118 @@
           <div class="col_width">
             <ul class="img_container">
               <li>
-                <figure>
                   <img src="./img/도넛/6.png" alt="로투스">
-                </figure>
-                <figcaption>
                   <p>로투스비스코프도넛</p>
-                </figcaption>
               </li>
               <li>
-                <figure>
                   <img src="./img/도넛/1.png" alt="스트로베리">
-                </figure>
-                <figcaption>
                   <p>스트로베리필드</p>
-                </figcaption>
               </li>
               <li>
-                <figure>
                   <img src="./img/도넛/7.png" alt="우유크림">
-                </figure>
-                <figcaption>
                   <p>우유크림도넛</p>
-                </figcaption>
               </li>
               <li>
-                <figure>
                   <img src="./img/도넛/9.png" alt="고구마">
-                </figure>
-                <figcaption>
                   <p>자주빛가을이구마</p>
-                </figcaption>
               </li>
               <li>
-                <figure>
                   <img src="./img/도넛/8.png" alt="가을">
-                </figure>
-                <figcaption>
                   <p>가을이익어가는밤</p>
-                </figcaption>
               </li>
-            </ul>
+              <li>
+                <img src="./img/도넛/2.png" alt="글레이즈드 사워크림">
+                <p>사워크림</p>
+              </li>
+              <li>
+                <img src="./img/도넛/10.png" alt="우유크림듬쁙">
+                <p>우유크림듬쁙</p>
+              </li>
+              <li>
+                <img src="./img/도넛/5.png" alt="딸기">
+                <p>스트로베리듬뿍</p>
+              </li>
+              <li>
+                <img src="./img/도넛/3.png" alt="딸기">
+                <p>딸기크림도넛</p>
+              </li>
+              <li>
+                <img src="./img/도넛/4.png" alt="오리지널">
+                <p>오리지널 글레이즈</p>
+              </li>
+
+            </ul><!-- img_container -->
           </div><!-- col_width -->
         </div><!-- overflow -->
-
       </div><!-- donet-visual -->
+    </div><!-- donet-wrap -->
+  </section><!-- visual-donet -->
+
+  <section class="home-event">
+    <div class="event-center">
+      <h2>EVENT</h2>
+      <ul>
+        <li>
+          <figure>
+            <a href="#"><img src="./img/1.jpg" alt="img1"></a>
+          </figure>
+          <figcaption>
+            <h3>가을 신제품 출시기념</h3>
+            <p class="des">가을 신제품 출시기념 이벤트를 진행합니다.</p>
+            <p class="date">2022-09-07</p>
+          </figcaption>
+        </li>
+        <li>
+          <figure>
+          <a href="#"><img src="./img/2.jpg" alt="img2"></a>
+          </figure>
+          <figcaption>
+            <h3>한끼든든</h3>
+            <p class="des">한끼든든 피자 출시기념 다양한 이벤트를 진행합니다.</p>
+            <p class="date">2022-09-08</p>
+          </figcaption>
+        </li>
+        <li>
+          <figure>
+          <a href="#"><img src="./img/3.jpg" alt="img3"></a>
+          </figure>
+          <figcaption>
+            <h3>1000원 즉시할인</h3>
+            <p class="des">APP에서 Pay 결제 제휴 이벤트를 확인하시고, 할인 받으세요.</p>
+            <p class="date">2022-09-22</p>
+          </figcaption>
+        </li>
+      </ul>
+      <button>
+        <a href="#">이벤트 더보기</a>
+      </button>
+    </div><!-- event-center -->
+  </section><!-- home-event -->
+
+  <section class="const_scroll">
+    <span class="text_1"><img src="./img/scroll_txt_1.png" alt="scrolltext1"></span>
+    <span class="text_2"><img src="./img/scroll_txt_2.png" alt="scrolltext2"></span>
+  </section><!-- const_scroll -->
+
+  <section class="const_sns">
+    <div class="sns_center">
+      <h3>
+        <span class="hidden">크리스피</span>
+        <img src="./img/logo/logo2.PNG" alt="logo2">
+      </h3>
+      <span>크리스피 도넛과 함께하는 SNS</span>
+      <div class="sns_img">
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+      </div>
     </div>
+  </section><!-- const_sns -->
+
+  <section class="last_img">
+    <img src="./img/bottom/bottom2.png" alt="">
   </section>
+
 
 </main> <!-- main -->
 

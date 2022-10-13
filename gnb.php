@@ -1,10 +1,10 @@
 
       <ul class="fdep-ul">
         <li>
-          <a href="#">MENU</a>
+          <a href="gnb_menu_1.php">MENU</a>
           <ul class="sdep-ul">
             <li>
-              <a href="">이달의 메뉴</a>
+              <a href="gnb_menu_1.php">이달의 메뉴</a>
             </li>
             <li>
               <a href="">도넛</a>
